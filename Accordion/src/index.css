@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+ 
+h1{
+  text-align: center;
+  margin-top: 5rem;
+}
+.parent{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 0.2rem;
+  text-align: center;
+}
+
+.childone{
+  background-color: rgb(255, 206, 114);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 0.4rem 0;
+}
+.childtwo{
+  display: none;
+  padding: 0.4rem 0;
+}
+.show {
+  display: block;
+  background-color: rgb(255, 206, 114);
+
+}
