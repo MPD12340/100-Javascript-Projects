@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.landing > button {
+  display: inline-block;
+  padding: 0.5rem;
+  cursor:  pointer;
+  font-weight: 700;
+  font-size: 1rem;
+}
